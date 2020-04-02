@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+.bigContainer {
+  border-style: double;
+}
+
+.title {
+  border-style: double;
+}
+
+.signaturebox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.date, .scorer, .attest {
+  font-size: 20px;
+}
