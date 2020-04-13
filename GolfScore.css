@@ -2,7 +2,7 @@ h1 {
   text-align: center;
 }
 
-.bigContainer {
+.bigContainer, .signaturebox {
   border-style: double;
 }
 
@@ -10,11 +10,20 @@ h1 {
   border-style: double;
 }
 
-.signaturebox {
+.signaturebox, .scoregridleft, .biggrid, .scoregridright {
   display: flex;
   justify-content: space-evenly;
 }
 
+
 .date, .scorer, .attest {
   font-size: 20px;
 }
+
+.scoregridmiddle {
+  font-size: 9px;
+  font-family: Impact;
+  
+}
+
+
